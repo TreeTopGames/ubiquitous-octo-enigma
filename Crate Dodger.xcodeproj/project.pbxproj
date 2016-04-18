@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		938ECFE81B9FA59900ADEC38 /* Rain Left.sks in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFDE1B9FA59900ADEC38 /* Rain Left.sks */; };
+		938ECFE91B9FA59900ADEC38 /* Rain Right.sks in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFDF1B9FA59900ADEC38 /* Rain Right.sks */; };
+		938ECFEA1B9FA59900ADEC38 /* Snow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE01B9FA59900ADEC38 /* Snow.sks */; };
+		938ECFEB1B9FA59900ADEC38 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE11B9FA59900ADEC38 /* spark.png */; };
+		938ECFEC1B9FA59900ADEC38 /* TapSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE21B9FA59900ADEC38 /* TapSound.wav */; };
+		938ECFED1B9FA59900ADEC38 /* CDBackground2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE31B9FA59900ADEC38 /* CDBackground2.wav */; };
+		938ECFEE1B9FA59900ADEC38 /* CDMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE41B9FA59900ADEC38 /* CDMusic.wav */; };
+		938ECFEF1B9FA59900ADEC38 /* Thunder.wav in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE51B9FA59900ADEC38 /* Thunder.wav */; };
+		938ECFF01B9FA59900ADEC38 /* Rain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE61B9FA59900ADEC38 /* Rain.wav */; };
+		938ECFF11B9FA59900ADEC38 /* Spaceship Bullet.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938ECFE71B9FA59900ADEC38 /* Spaceship Bullet.ttf */; };
+		93BE49E01B9FA79A00B1D77D /* CrateDodger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE49DF1B9FA79A00B1D77D /* CrateDodger.swift */; };
+		93BE49E21B9FABBA00B1D77D /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE49E11B9FABBA00B1D77D /* Settings.swift */; };
+		93BE49E41B9FABC200B1D77D /* HowToPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE49E31B9FABC200B1D77D /* HowToPlay.swift */; };
+		93BE49E61B9FABCC00B1D77D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE49E51B9FABCC00B1D77D /* Store.swift */; };
+		93BE49E81B9FABD400B1D77D /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE49E71B9FABD400B1D77D /* Credits.swift */; };
+		93BE49EA1B9FABDB00B1D77D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE49E91B9FABDB00B1D77D /* Contact.swift */; };
 		93CC0EBB1B9CE02F0061FA60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC0EBA1B9CE02F0061FA60 /* AppDelegate.swift */; };
 		93CC0EBD1B9CE02F0061FA60 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 93CC0EBC1B9CE02F0061FA60 /* GameScene.sks */; };
 		93CC0EBF1B9CE02F0061FA60 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC0EBE1B9CE02F0061FA60 /* GameScene.swift */; };
@@ -15,7 +31,6 @@
 		93CC0EC61B9CE02F0061FA60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CC0EC51B9CE02F0061FA60 /* Assets.xcassets */; };
 		93CC0EC91B9CE02F0061FA60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93CC0EC71B9CE02F0061FA60 /* LaunchScreen.storyboard */; };
 		93CC0ED41B9CE02F0061FA60 /* Crate_DodgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC0ED31B9CE02F0061FA60 /* Crate_DodgerTests.swift */; };
-		93CC0EDF1B9CE02F0061FA60 /* Crate_DodgerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CC0EDE1B9CE02F0061FA60 /* Crate_DodgerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +41,25 @@
 			remoteGlobalIDString = 93CC0EB61B9CE02F0061FA60;
 			remoteInfo = "Crate Dodger";
 		};
-		93CC0EDB1B9CE02F0061FA60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93CC0EAF1B9CE02F0061FA60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93CC0EB61B9CE02F0061FA60;
-			remoteInfo = "Crate Dodger";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		938ECFDE1B9FA59900ADEC38 /* Rain Left.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Rain Left.sks"; sourceTree = "<group>"; };
+		938ECFDF1B9FA59900ADEC38 /* Rain Right.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Rain Right.sks"; sourceTree = "<group>"; };
+		938ECFE01B9FA59900ADEC38 /* Snow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Snow.sks; sourceTree = "<group>"; };
+		938ECFE11B9FA59900ADEC38 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		938ECFE21B9FA59900ADEC38 /* TapSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = TapSound.wav; sourceTree = "<group>"; };
+		938ECFE31B9FA59900ADEC38 /* CDBackground2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CDBackground2.wav; sourceTree = "<group>"; };
+		938ECFE41B9FA59900ADEC38 /* CDMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CDMusic.wav; sourceTree = "<group>"; };
+		938ECFE51B9FA59900ADEC38 /* Thunder.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Thunder.wav; sourceTree = "<group>"; };
+		938ECFE61B9FA59900ADEC38 /* Rain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rain.wav; sourceTree = "<group>"; };
+		938ECFE71B9FA59900ADEC38 /* Spaceship Bullet.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spaceship Bullet.ttf"; sourceTree = "<group>"; };
+		93BE49DF1B9FA79A00B1D77D /* CrateDodger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrateDodger.swift; sourceTree = "<group>"; };
+		93BE49E11B9FABBA00B1D77D /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		93BE49E31B9FABC200B1D77D /* HowToPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPlay.swift; sourceTree = "<group>"; };
+		93BE49E51B9FABCC00B1D77D /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		93BE49E71B9FABD400B1D77D /* Credits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
+		93BE49E91B9FABDB00B1D77D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		93CC0EB71B9CE02F0061FA60 /* Crate Dodger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crate Dodger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CC0EBA1B9CE02F0061FA60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93CC0EBC1B9CE02F0061FA60 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -48,9 +72,6 @@
 		93CC0ECF1B9CE02F0061FA60 /* Crate DodgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crate DodgerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93CC0ED31B9CE02F0061FA60 /* Crate_DodgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crate_DodgerTests.swift; sourceTree = "<group>"; };
 		93CC0ED51B9CE02F0061FA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93CC0EDA1B9CE02F0061FA60 /* Crate DodgerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crate DodgerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93CC0EDE1B9CE02F0061FA60 /* Crate_DodgerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crate_DodgerUITests.swift; sourceTree = "<group>"; };
-		93CC0EE01B9CE02F0061FA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,22 +89,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93CC0ED71B9CE02F0061FA60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		938ECFDD1B9FA54E00ADEC38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				938ECFDE1B9FA59900ADEC38 /* Rain Left.sks */,
+				938ECFDF1B9FA59900ADEC38 /* Rain Right.sks */,
+				938ECFE01B9FA59900ADEC38 /* Snow.sks */,
+				938ECFE11B9FA59900ADEC38 /* spark.png */,
+				938ECFE21B9FA59900ADEC38 /* TapSound.wav */,
+				938ECFE31B9FA59900ADEC38 /* CDBackground2.wav */,
+				938ECFE41B9FA59900ADEC38 /* CDMusic.wav */,
+				938ECFE51B9FA59900ADEC38 /* Thunder.wav */,
+				938ECFE61B9FA59900ADEC38 /* Rain.wav */,
+				938ECFE71B9FA59900ADEC38 /* Spaceship Bullet.ttf */,
+				93CC0ECA1B9CE02F0061FA60 /* Info.plist */,
+				93CC0EC71B9CE02F0061FA60 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		93CC0EAE1B9CE02F0061FA60 = {
 			isa = PBXGroup;
 			children = (
 				93CC0EB91B9CE02F0061FA60 /* Crate Dodger */,
 				93CC0ED21B9CE02F0061FA60 /* Crate DodgerTests */,
-				93CC0EDD1B9CE02F0061FA60 /* Crate DodgerUITests */,
 				93CC0EB81B9CE02F0061FA60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +125,6 @@
 			children = (
 				93CC0EB71B9CE02F0061FA60 /* Crate Dodger.app */,
 				93CC0ECF1B9CE02F0061FA60 /* Crate DodgerTests.xctest */,
-				93CC0EDA1B9CE02F0061FA60 /* Crate DodgerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,11 +135,16 @@
 				93CC0EBA1B9CE02F0061FA60 /* AppDelegate.swift */,
 				93CC0EBC1B9CE02F0061FA60 /* GameScene.sks */,
 				93CC0EBE1B9CE02F0061FA60 /* GameScene.swift */,
+				93BE49DF1B9FA79A00B1D77D /* CrateDodger.swift */,
+				93BE49E11B9FABBA00B1D77D /* Settings.swift */,
+				93BE49E31B9FABC200B1D77D /* HowToPlay.swift */,
+				93BE49E51B9FABCC00B1D77D /* Store.swift */,
+				93BE49E71B9FABD400B1D77D /* Credits.swift */,
+				93BE49E91B9FABDB00B1D77D /* Contact.swift */,
 				93CC0EC01B9CE02F0061FA60 /* GameViewController.swift */,
 				93CC0EC21B9CE02F0061FA60 /* Main.storyboard */,
 				93CC0EC51B9CE02F0061FA60 /* Assets.xcassets */,
-				93CC0EC71B9CE02F0061FA60 /* LaunchScreen.storyboard */,
-				93CC0ECA1B9CE02F0061FA60 /* Info.plist */,
+				938ECFDD1B9FA54E00ADEC38 /* Supporting Files */,
 			);
 			path = "Crate Dodger";
 			sourceTree = "<group>";
@@ -120,15 +156,6 @@
 				93CC0ED51B9CE02F0061FA60 /* Info.plist */,
 			);
 			path = "Crate DodgerTests";
-			sourceTree = "<group>";
-		};
-		93CC0EDD1B9CE02F0061FA60 /* Crate DodgerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				93CC0EDE1B9CE02F0061FA60 /* Crate_DodgerUITests.swift */,
-				93CC0EE01B9CE02F0061FA60 /* Info.plist */,
-			);
-			path = "Crate DodgerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,24 +196,6 @@
 			productReference = 93CC0ECF1B9CE02F0061FA60 /* Crate DodgerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		93CC0ED91B9CE02F0061FA60 /* Crate DodgerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93CC0EE91B9CE02F0061FA60 /* Build configuration list for PBXNativeTarget "Crate DodgerUITests" */;
-			buildPhases = (
-				93CC0ED61B9CE02F0061FA60 /* Sources */,
-				93CC0ED71B9CE02F0061FA60 /* Frameworks */,
-				93CC0ED81B9CE02F0061FA60 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93CC0EDC1B9CE02F0061FA60 /* PBXTargetDependency */,
-			);
-			name = "Crate DodgerUITests";
-			productName = "Crate DodgerUITests";
-			productReference = 93CC0EDA1B9CE02F0061FA60 /* Crate DodgerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,12 +207,9 @@
 				TargetAttributes = {
 					93CC0EB61B9CE02F0061FA60 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 6923D65664;
 					};
 					93CC0ECE1B9CE02F0061FA60 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 93CC0EB61B9CE02F0061FA60;
-					};
-					93CC0ED91B9CE02F0061FA60 = {
 						CreatedOnToolsVersion = 7.0;
 						TestTargetID = 93CC0EB61B9CE02F0061FA60;
 					};
@@ -224,7 +230,6 @@
 			targets = (
 				93CC0EB61B9CE02F0061FA60 /* Crate Dodger */,
 				93CC0ECE1B9CE02F0061FA60 /* Crate DodgerTests */,
-				93CC0ED91B9CE02F0061FA60 /* Crate DodgerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,21 +239,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938ECFED1B9FA59900ADEC38 /* CDBackground2.wav in Resources */,
+				938ECFF01B9FA59900ADEC38 /* Rain.wav in Resources */,
 				93CC0EBD1B9CE02F0061FA60 /* GameScene.sks in Resources */,
+				938ECFE91B9FA59900ADEC38 /* Rain Right.sks in Resources */,
+				938ECFE81B9FA59900ADEC38 /* Rain Left.sks in Resources */,
 				93CC0EC91B9CE02F0061FA60 /* LaunchScreen.storyboard in Resources */,
+				938ECFF11B9FA59900ADEC38 /* Spaceship Bullet.ttf in Resources */,
+				938ECFEF1B9FA59900ADEC38 /* Thunder.wav in Resources */,
 				93CC0EC61B9CE02F0061FA60 /* Assets.xcassets in Resources */,
+				938ECFEB1B9FA59900ADEC38 /* spark.png in Resources */,
+				938ECFEC1B9FA59900ADEC38 /* TapSound.wav in Resources */,
+				938ECFEA1B9FA59900ADEC38 /* Snow.sks in Resources */,
+				938ECFEE1B9FA59900ADEC38 /* CDMusic.wav in Resources */,
 				93CC0EC41B9CE02F0061FA60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		93CC0ECD1B9CE02F0061FA60 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93CC0ED81B9CE02F0061FA60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,9 +270,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93BE49EA1B9FABDB00B1D77D /* Contact.swift in Sources */,
+				93BE49E61B9FABCC00B1D77D /* Store.swift in Sources */,
+				93BE49E01B9FA79A00B1D77D /* CrateDodger.swift in Sources */,
+				93BE49E41B9FABC200B1D77D /* HowToPlay.swift in Sources */,
 				93CC0EBF1B9CE02F0061FA60 /* GameScene.swift in Sources */,
 				93CC0EC11B9CE02F0061FA60 /* GameViewController.swift in Sources */,
 				93CC0EBB1B9CE02F0061FA60 /* AppDelegate.swift in Sources */,
+				93BE49E81B9FABD400B1D77D /* Credits.swift in Sources */,
+				93BE49E21B9FABBA00B1D77D /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +290,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93CC0ED61B9CE02F0061FA60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93CC0EDF1B9CE02F0061FA60 /* Crate_DodgerUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,11 +297,6 @@
 			isa = PBXTargetDependency;
 			target = 93CC0EB61B9CE02F0061FA60 /* Crate Dodger */;
 			targetProxy = 93CC0ED01B9CE02F0061FA60 /* PBXContainerItemProxy */;
-		};
-		93CC0EDC1B9CE02F0061FA60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93CC0EB61B9CE02F0061FA60 /* Crate Dodger */;
-			targetProxy = 93CC0EDB1B9CE02F0061FA60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -406,10 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crate Dodger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TreeTop-Games.Crate-Dodger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -417,10 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Crate Dodger/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TreeTop-Games.Crate-Dodger";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -428,11 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thomas Burke (6923D65664)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Thomas Burke (6923D65664)";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = "Crate DodgerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TreeTop-Games.Crate-DodgerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d117735a-23e7-4540-9e5b-f66ad89d3b2e";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crate Dodger.app/Crate Dodger";
 			};
 			name = Debug;
@@ -441,36 +453,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Thomas Burke (6923D65664)";
 				INFOPLIST_FILE = "Crate DodgerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "TreeTop-Games.Crate-DodgerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d117735a-23e7-4540-9e5b-f66ad89d3b2e";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crate Dodger.app/Crate Dodger";
-			};
-			name = Release;
-		};
-		93CC0EEA1B9CE02F0061FA60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = "Crate DodgerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TreeTop-Games.Crate-DodgerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Crate Dodger";
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		93CC0EEB1B9CE02F0061FA60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "Crate DodgerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "TreeTop-Games.Crate-DodgerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "Crate Dodger";
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -493,6 +482,7 @@
 				93CC0EE51B9CE02F0061FA60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93CC0EE61B9CE02F0061FA60 /* Build configuration list for PBXNativeTarget "Crate DodgerTests" */ = {
 			isa = XCConfigurationList;
@@ -501,14 +491,7 @@
 				93CC0EE81B9CE02F0061FA60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		93CC0EE91B9CE02F0061FA60 /* Build configuration list for PBXNativeTarget "Crate DodgerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93CC0EEA1B9CE02F0061FA60 /* Debug */,
-				93CC0EEB1B9CE02F0061FA60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

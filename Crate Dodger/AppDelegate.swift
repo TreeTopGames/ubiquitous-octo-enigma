@@ -7,18 +7,44 @@
 //
 
 import UIKit
+import SpriteKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var quickActions: String = "Nothing"
+    
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let shortcut2 = UIMutableApplicationShortcutItem(type: "Photos", localizedTitle: "Camera Roll", localizedSubtitle: "Starts game with Photos", icon: UIApplicationShortcutIcon(type: .Play), userInfo: nil)
+        
+        application.shortcutItems = [shortcut2]
+        
+        
         return true
     }
 
+    func application(application: UIApplication, performActionForShortcutItem shortcutItem: UIApplicationShortcutItem, completionHandler: Bool -> Void) {
+        switch (shortcutItem.type) {
+            case "Camera" :
+                print("Camera")
+                quickActions = "Camera"
+            case "Photos" :
+                print("Photos")
+                quickActions = "Photos"
+            default:
+            break
+            
+        }
+        
+        NSUserDefaults.standardUserDefaults().setObject(quickActions, forKey: "Quick Actions")
+        NSUserDefaults.standardUserDefaults().synchronize()
+        
+        completionHandler(true)
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
